@@ -2,7 +2,7 @@ name: dockerstatic-blazor-wasm
 static_sites:
   - name: site
     github:
-      repo: zetroot/DockerStatic
+      repo: zetroot/DockerWithStatic
       branch: master
       deploy_on_push: true
     dockerfile_path: Dockerfile.wasm
